@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{7a31181c-7374-4e09-8bc9-228e07a35cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera&amp;Image">
+      <UniqueIdentifier>{86ce1456-972c-4bdf-a7c3-294dbb0aa162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model3D">
+      <UniqueIdentifier>{4790d99d-243e-40cd-9972-af939ed19cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hands&amp;Guitar">
+      <UniqueIdentifier>{8d23d0df-a717-49a6-93d6-1b3bc00c3eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{f9846f68-aa39-403a-b908-d8442834c23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera&amp;Image">
+      <UniqueIdentifier>{5decb672-0cb9-45ba-b038-31f3b53d58e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model3D">
+      <UniqueIdentifier>{295dd108-0e61-4d66-8baf-755121ff742d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hands&amp;Guitar">
+      <UniqueIdentifier>{4ac08f75-96a5-441e-a831-ff24affaee92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util\win32timer.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera&amp;Image\Camera.cpp">
+      <Filter>Source Files\Camera&amp;Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera&amp;Image\Color.cpp">
+      <Filter>Source Files\Camera&amp;Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera&amp;Image\Image.cpp">
+      <Filter>Source Files\Camera&amp;Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera&amp;Image\Renderer.cpp">
+      <Filter>Source Files\Camera&amp;Image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model3D\3DSLoader.cpp">
+      <Filter>Source Files\Model3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model3D\Texture.cpp">
+      <Filter>Source Files\Model3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hands&amp;Guitar\Guitar.cpp">
+      <Filter>Source Files\Hands&amp;Guitar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hands&amp;Guitar\SoundModule.cpp">
+      <Filter>Source Files\Hands&amp;Guitar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Util\win32timer.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera&amp;Image\Camera.h">
+      <Filter>Header Files\Camera&amp;Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera&amp;Image\Color.h">
+      <Filter>Header Files\Camera&amp;Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera&amp;Image\Image.h">
+      <Filter>Header Files\Camera&amp;Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera&amp;Image\Point2D.h">
+      <Filter>Header Files\Camera&amp;Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera&amp;Image\Renderer.h">
+      <Filter>Header Files\Camera&amp;Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera&amp;Image\Resolution.h">
+      <Filter>Header Files\Camera&amp;Image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model3D\3DSLoader.h">
+      <Filter>Header Files\Model3D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model3D\Texture.h">
+      <Filter>Header Files\Model3D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hands&amp;Guitar\Guitar.h">
+      <Filter>Header Files\Hands&amp;Guitar</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hands&amp;Guitar\HandsPoints.h">
+      <Filter>Header Files\Hands&amp;Guitar</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Hands&amp;Guitar\SoundModule.h">
+      <Filter>Header Files\Hands&amp;Guitar</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

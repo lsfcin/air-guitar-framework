@@ -1,0 +1,7 @@
+The sound file "sounds.txt" in ".\Air Guitar Framework\files\guitar\sounds" sets the possible guitar sounds and the playback used song.
+
+The camera file "camera.xml" in ".\Air Guitar Framework\files\camera" sets the current capture mode, changing between webcam capture and video file input by just alternating the part commented in the file.
+
+To find more details about the work please look for the paper at
+http://www.sbgames.org/papers/sbgames09/computing/full/cp9_09.pdf
+

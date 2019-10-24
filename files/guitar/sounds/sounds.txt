@@ -1,0 +1,10 @@
+#sounds
+5
+files/guitar/sounds/distorted_notes/A3.mp3
+files/guitar/sounds/clean_strings/Clean_A_str_pick.wav
+files/guitar/sounds/muted_power_chords/palmmute_pwrchrd_Estr_A.wav
+files/guitar/sounds/clean_notes/A3.mp3
+files/guitar/sounds/default/sound1.wav
+
+#playback
+files/guitar/sounds/playbacks/hi_boogie_120_a.mp3
